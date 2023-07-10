@@ -1,0 +1,20 @@
+// declaring all variables
+
+unsigned long signal_len, t1,t2; // defining for how long the button is pressed
+int inputPin = 2;                // defining the input pin for the push button
+int ledPin = 4;                  // defining output pin for LED bulb
+String standard = "";            //
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(inputPin, INPUT_PULLUP);
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+
+NextDotDash:
+  while(digitalRead(inputPin)== HIGH) {}
+  t1=millis();
+
+}
