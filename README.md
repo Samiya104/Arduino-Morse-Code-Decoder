@@ -1,2 +1,3 @@
 # Arduino-Morse-Code-Decoder
-A morse code decoder that uses a push button to take morse input and the microcontroller decodes the code to english alphabet and displays it on the screen.
+The goal of this project was to build a final group project using programming skills learnt over the first-year engineering course, and develop an end product in 4-6 weeks.
+This project uses a push button to transmit input signals to the microprocessors which then converts this input signal to either a dih(.) or a dash(-) in morse, and then converts it to its corresponding english alphanumerical values. The input signal is differntiated by assigning a dih(.) value to an input signal when the push button was pressd for less than 0.6 seconds, and a dash(-) when longer. This differntiation helped the microprocessor assign the correct morse and then correpsonding alphanumeric values displayed on the serial interface of the IDE.
